@@ -1,0 +1,13 @@
+# Directory structure-1 this is
+
+website/
+	layout/
+		nav_bar.html
+		footer.html
+
+	index.html			# @include="html_file" copy contains of html_file to header.html file
+
+
+
+
+	something
