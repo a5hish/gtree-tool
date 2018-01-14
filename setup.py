@@ -1,12 +1,11 @@
 import os
 import shutil
+import subprocess
 from setuptools import setup, find_packages
 
 temp_dir = os.path.expanduser("~")+"/Templates/gtree-templates/"
 if os.path.isdir(temp_dir) == False:
-	os.makedirs(temp_dir)
-	shutil.copytree("sample-templates/", temp_dir)
-	os.rename()
+	subprocess.call(['cp', '-r', 'sample-templates', temp_dir])
 
 
 setup(

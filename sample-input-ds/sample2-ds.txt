@@ -1,0 +1,6 @@
+# example usecase
+website/
+    index.html          # @include="html_file"
+    img/
+    js/
+    css/

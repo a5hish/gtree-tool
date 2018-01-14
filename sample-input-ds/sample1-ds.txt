@@ -1,0 +1,9 @@
+# sample-1 directory-structure
+project/
+    bin/
+        project
+    project/
+        __init__.py
+        module1.py
+        main.py
+    setup.py  
