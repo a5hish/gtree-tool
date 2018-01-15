@@ -99,10 +99,12 @@ website/
 ____
 ### Placeholders :
 This are special string which are used in template-text file that are changed dynamically at runtime by gtree.
+
 | PlaceHolders | Function |
-|---|----|
-|[@file_name]|This will be changed to the name of the file into which it is copied|
-|[@date]| This will be changed to the date on which the file was created.|
+| ----- | ----- |
+| [@file_name] |This will be changed to the name of the file into which it is copied |
+| [@date] | This will be changed to the date on which the file was created. |
+
 
 ( Used on files which are stored in ***“~/Templates/gtree-templates/”***)
 ### Example using @include and placeholer:
